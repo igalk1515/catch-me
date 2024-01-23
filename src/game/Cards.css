@@ -1,0 +1,28 @@
+.Cards {
+  display: flex;
+  position: fixed;
+  left: 350px;
+  top: 350px;
+}
+
+/* .Card {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease;
+} */
+
+.CardButton {
+  width: 130px;
+  height: 200px;
+  background-color: #1babde;
+  border-radius: 10%;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  text-align: center;
+}

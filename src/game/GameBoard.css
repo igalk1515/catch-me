@@ -1,0 +1,44 @@
+.backGroundCanva {
+  background-color: lightblue;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 800px;
+  height: 800px;
+}
+
+.startGame {
+  margin: auto;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: #1babde;
+  border-radius: 10%;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  text-align: center;
+  line-height: 200px;
+  font-size: 20px;
+}
+
+.TopScore {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.GameOver {
+  margin: auto;
+  position: relative;
+  left: 35%;
+  font-size: 50px;
+}
