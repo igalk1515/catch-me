@@ -9,7 +9,7 @@ class GameBoard extends Component {
   constructor(props) {
     super(props);
     this.canvasRef = React.createRef();
-    this.randomEventsTime = 10;
+    this.randomEventsTime = 7;
     this.state = {
       isGameStarted: false,
       isGameOver: false,
