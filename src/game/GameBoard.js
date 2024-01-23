@@ -9,7 +9,7 @@ class GameBoard extends Component {
   constructor(props) {
     super(props);
     this.canvasRef = React.createRef();
-    this.randomEventsTime = 9;
+    this.randomEventsTime = 10;
     this.state = {
       isGameStarted: false,
       isGameOver: false,
@@ -36,10 +36,8 @@ class GameBoard extends Component {
     this.setState((prevState) => ({ time: prevState.time + 1 }));
     if (
       this.state.time !== 0 &&
-      this.state.time % this.randomEventsTime === 0 &&
-      this.randomEventsTime !== this.state.time
+      this.state.time % this.randomEventsTime === 0
     ) {
-      this.randomEventsTime = this.randomEventsTime + 2;
       this.genrateRandomEvents();
     }
   };
@@ -53,7 +51,7 @@ class GameBoard extends Component {
       topScore: Math.max(this.state.topScore, this.state.time),
       time: 0,
     });
-    this.randomEventsTime = 5;
+    this.randomEventsTime = 10;
     events.resetEvents();
   };
 
