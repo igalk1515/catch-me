@@ -17,7 +17,7 @@ class Canvas extends Component {
       0,
       50,
       'red',
-      15,
+      20,
       this.ctx,
       this.props.mouse
     );
