@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/catch-me/static/css/main.c3dd8e10.css",
+    "main.js": "/catch-me/static/js/main.38ba432d.js",
+    "index.html": "/catch-me/index.html",
+    "main.c3dd8e10.css.map": "/catch-me/static/css/main.c3dd8e10.css.map",
+    "main.38ba432d.js.map": "/catch-me/static/js/main.38ba432d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3dd8e10.css",
+    "static/js/main.38ba432d.js"
+  ]
+}
