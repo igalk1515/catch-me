@@ -64,8 +64,8 @@ class Canvas extends Component {
         <canvas
           className="canvas"
           ref={this.canvasRef}
-          width={800}
-          height={800}
+          width={600}
+          height={600}
         />
       </div>
     );
